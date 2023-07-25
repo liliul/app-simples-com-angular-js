@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HousingLocation } from '../housinglocation';
+import { localDaCasa_interface } from '../housinglocation';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -22,5 +22,5 @@ import { RouterModule } from '@angular/router';
 })
 
 export class HousingLocationComponent {
-  @Input() housingLocation!: HousingLocation;
+  @Input() housingLocation!: localDaCasa_interface;
 } 

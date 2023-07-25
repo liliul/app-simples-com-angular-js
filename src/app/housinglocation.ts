@@ -1,4 +1,4 @@
-export interface HousingLocation {
+export interface localDaCasa_interface {
     id: number;
     name: string;
     city: string;

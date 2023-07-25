@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 
-import { HousingLocation } from '../housinglocation';
+import { localDaCasa_interface } from '../housinglocation';
 
 import { HousingService } from '../housing.service';
 
@@ -29,13 +29,13 @@ import { HousingService } from '../housing.service';
 })
 
 export class HomeComponent {
-  housingLocationList: HousingLocation[] = [];
+  housingLocationList: localDaCasa_interface[] = [];
   housingService: HousingService = inject(HousingService);
 
-  filteredLocationList: HousingLocation[] = [];
+  filteredLocationList: localDaCasa_interface[] = [];
 
   constructor() {
-    this.housingService.getAllHousingLocations().then((housingLocationList: HousingLocation[]) => {
+    this.housingService.getAllHousingLocations().then((housingLocationList: localDaCasa_interface[]) => {
       this.housingLocationList = housingLocationList;
       this.filteredLocationList = housingLocationList;
     });
