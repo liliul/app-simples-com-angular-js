@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { HousingLocationComponent } from '../housing-location/housing-location.component';
+import { localHabitacaoComponente } from '../housing-location/housing-location.component';
 
 import { localDaCasa_interface } from '../housinglocation';
 
@@ -12,7 +12,7 @@ import { servicoDeHabitacao } from '../housing.service';
   standalone: true,
   imports: [
     CommonModule,
-    HousingLocationComponent
+    localHabitacaoComponente
   ],
   template: `
     <section>

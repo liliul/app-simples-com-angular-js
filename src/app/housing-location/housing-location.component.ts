@@ -21,6 +21,6 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./housing-location.component.css'],
 })
 
-export class HousingLocationComponent {
+export class localHabitacaoComponente {
   @Input() housingLocation!: localDaCasa_interface;
 } 
