@@ -45,7 +45,7 @@ import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
   styleUrls: ['./details.component.css']
 })
 
-export class DetailsComponent {
+export class DetalhesDoComponente {
 
   route: ActivatedRoute = inject(ActivatedRoute);
   housingService = inject(HousingService);

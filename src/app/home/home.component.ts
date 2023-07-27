@@ -28,7 +28,11 @@ import { HousingService } from '../housing.service';
   styleUrls: ['./home.component.css'],
 })
 
+<<<<<<< HEAD
 export class HomeComponent {
+=======
+export class componenteCasa {
+>>>>>>> dev
   housingLocationList: localDaCasa_interface[] = [];
   housingService: HousingService = inject(HousingService);
 
