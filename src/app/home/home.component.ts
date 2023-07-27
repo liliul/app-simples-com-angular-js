@@ -5,7 +5,7 @@ import { HousingLocationComponent } from '../housing-location/housing-location.c
 
 import { localDaCasa_interface } from '../housinglocation';
 
-import { HousingService } from '../housing.service';
+import { servicoDeHabitacao } from '../housing.service';
 
 @Component({
   selector: 'app-home',
@@ -30,7 +30,7 @@ import { HousingService } from '../housing.service';
 
 export class componenteCasa {
   housingLocationList: localDaCasa_interface[] = [];
-  housingService: HousingService = inject(HousingService);
+  housingService: servicoDeHabitacao = inject(servicoDeHabitacao);
 
   filteredLocationList: localDaCasa_interface[] = [];
 

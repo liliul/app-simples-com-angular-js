@@ -4,7 +4,7 @@ import { localDaCasa_interface } from './housinglocation';
 @Injectable({
   providedIn: 'root'
 })
-export class HousingService {
+export class servicoDeHabitacao {
 
   url = 'http://localhost:3000/locations';
 
